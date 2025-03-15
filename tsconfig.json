@@ -5,6 +5,9 @@
   "references": [
     {
       "path": "./apps/next-prisma-trpc"
+    },
+    {
+      "path": "./libs/database"
     }
   ]
 }

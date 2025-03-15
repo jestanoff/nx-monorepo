@@ -6,16 +6,26 @@
     "name": "next-prisma-trpc"
   },
   "dependencies": {
+    "@radix-ui/react-slot": "^1.1.2",
+    "@tailwindcss/postcss": "^4.0.14",
     "@tanstack/react-query": "^5.68.0",
     "@trpc/client": "11.0.0-rc.833",
     "@trpc/react-query": "11.0.0-rc.833",
     "@trpc/server": "11.0.0-rc.833",
+    "class-variance-authority": "^0.7.1",
     "client-only": "^0.0.1",
+    "clsx": "^2.1.1",
+    "lucide-react": "^0.482.0",
     "next": "~15.1.4",
+    "postcss": "8.4.38",
     "react": "19.0.0",
     "react-dom": "19.0.0",
+    "react-intersection-observer": "^9.16.0",
     "server-only": "^0.0.1",
     "superjson": "^2.2.2",
+    "tailwind-merge": "^3.0.2",
+    "tailwindcss": "3.4.3",
+    "tailwindcss-animate": "^1.0.7",
     "zod": "^3.24.2"
   }
 }
