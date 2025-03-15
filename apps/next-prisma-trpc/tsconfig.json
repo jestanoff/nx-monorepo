@@ -35,10 +35,10 @@
   "include": [
     "../../apps/next-prisma-trpc/.next/types/**/*.ts",
     "../../dist/apps/next-prisma-trpc/.next/types/**/*.ts",
-    "app/**/*.js",
-    "app/**/*.jsx",
     "app/**/*.ts",
     "app/**/*.tsx",
+    "trpc/**/*.ts",
+    "trpc/**/*.tsx",
     "next-env.d.ts",
     ".next/types/**/*.ts"
   ],

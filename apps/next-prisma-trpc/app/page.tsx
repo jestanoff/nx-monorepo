@@ -1,6 +1,12 @@
-export default function Index() {
-  /*
-   * Note: The corresponding styles are in the ./index.tailwind file.
-   */
-  return <div></div>;
+import { trpc } from "@/trpc/server";
+import { ClientGreeting } from "./client-greeting";
+
+export default async function Index() {
+  void trpc.hello.prefetch({ text: "from server" });
+
+  return (
+    <div>
+      <ClientGreeting />
+    </div>
+  );
 }
