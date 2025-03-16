@@ -8,6 +8,9 @@
     },
     {
       "path": "./libs/database"
+    },
+    {
+      "path": "./apps/next-server-actions"
     }
   ]
 }

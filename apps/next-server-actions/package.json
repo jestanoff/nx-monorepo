@@ -1,0 +1,20 @@
+{
+  "name": "@nx-monorepo/next-server-actions",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "@tailwindcss/postcss": "^4.0.14",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "lucide-react": "^0.482.0",
+    "next": "~15.1.4",
+    "postcss": "8.4.38",
+    "react": "19.0.0",
+    "react-dom": "19.0.0",
+    "react-intersection-observer": "^9.16.0",
+    "tailwind-merge": "^3.0.2",
+    "tailwindcss": "3.4.3",
+    "tailwindcss-animate": "^1.0.7",
+    "zod": "^3.24.2"
+  }
+}
