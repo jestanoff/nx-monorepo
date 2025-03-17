@@ -22,7 +22,7 @@
     ],
     "paths": {
       "@nx-monorepo/database": [
-        "../../libs/database/dist/index"
+        "../../libs/database/dist"
       ],
       "@/*": [
         "./*"
@@ -32,8 +32,6 @@
     "rootDir": "."
   },
   "include": [
-    "../../apps/next-server-actions/.next/types/**/*.ts",
-    "../../dist/apps/next-server-actions/.next/types/**/*.ts",
     "app/**/*.js",
     "app/**/*.jsx",
     "app/**/*.ts",
